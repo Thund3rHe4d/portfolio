@@ -1,0 +1,196 @@
+p { text-align: justify; font-family: tahoma, sans-serif; }
+h1 { text-align: center; font-family: tahoma, sans-serif; }
+h2 { padding: 40px; text-decoration: underline ; font-style: italic; font-family: tahoma, sans-serif;}
+h3 {font-family: tahoma, sans-serif;}
+h5 {text-align: justify; font-family: tahoma, sans-serif;}
+
+.fond {
+	background-color: rgb(242, 242, 238);
+}
+
+.fond-contact {
+	background-image: url(fond.png); min-height: 100%; background-size: cover; background-repeat: no-repeat; background-position: center center; 
+	background-attachment: fixed; border-radius: 14% 14%;
+}
+
+.fond-accueil {
+	min-height: 100%; background-size: cover; background-repeat: no-repeat; background-position: center center; background-attachment: fixed;}
+
+.centre {
+	text-align: center; font-style: italic;}
+
+.marge {
+	margin-bottom: 60px;}
+
+.marge-boutton {
+	margin-bottom: 50px;}
+
+.marge-int {
+	padding: 10px;}
+
+.marge-top {
+	padding: 40px;}
+
+.hauteur-barre {
+	padding-top: 120px;}
+
+.hauteur-intro {
+	padding-top: 81px;}
+
+.hauteur-job {
+	padding-top: 25px;}
+
+.hauteur-sherbrooke {
+	padding-top: 45px;}
+
+.espace {
+	margin-right: 2px; margin-left: 2px;}
+
+.image-75 {
+	width: 75%;}
+
+.image-65 {
+	height: auto;
+	width: 65%;}
+
+.description  {
+	font-style: italic; text-align: justify;}
+
+.job {
+	font-weight: bold; text-align: center;}
+
+.taille_image {
+	height: 200px; width: 300px;}
+
+.bordure-1 {
+	border-radius: 0% 20%; border-width: 5px; border-color: black; border-style: solid; }
+
+.bordure-2 {
+	border-radius: 8% 8%; border-width: 5px; border-color: black; border-style: solid; }
+
+.bordure-3 {
+	border-radius: 20% 0%; border-width: 5px; border-color: black; border-style: solid; }
+
+.barre {
+	font-style: italic; font-family: tahoma, sans-serif; font-size: x-large; opacity: 0.90; background-image: url(fond.png); background-size: cover; background-repeat: no-repeat;}
+.barre-accueil {
+	font-style: italic; font-family: tahoma, sans-serif; font-size: x-large; background-color: transparent;}
+
+.progres {
+	color: white !important; font-size: x-large; background-image: url(barre2.png); background-size: cover; background-repeat: no-repeat;}
+
+.fade-gauche {
+	animation: fadeInLeft 1.2s ease-in-out; animation-fill-mode: forwards;}
+@keyframes fadeInLeft {
+	from{ opacity: 0; transform: translateX(-800px); }
+	to{ opacity: 1; transform: translateX(0); }
+}
+
+.fade-droit {
+	animation: fadeInRight 1.2s ease-in-out; animation-fill-mode: forwards;}
+@keyframes fadeInRight {
+	from{opacity: 0; transform: translateX(800px);}
+	to{ opacity: 1; transform: translateX(0); }
+}
+
+.animate__animated.animate__zoomIn {
+	--animate-duration: 2.5s;}
+
+.boutton {
+	text-align: center;
+}
+
+.img-cartes {
+	margin-left: -13px; margin-right: -13px; margin-top: -2px;}
+
+.blanc-accueil {
+	color: white !important; font-weight: bold !important;}
+
+.blanc {
+	color: white !important;}
+
+a.nounderline:link 
+{ 
+ text-decoration:none; 
+}
+
+
+.type {
+	font-family: monospace; 
+  color:#0000;
+  background:
+    linear-gradient(-90deg,#ffffff 5px,#0000 0) 10px 0,
+    linear-gradient(#fff 0 0) 0 0;
+  background-size:calc(var(--n)*1ch) 200%;
+  -webkit-background-clip:padding-box,text;
+  background-clip:padding-box,text;
+  background-repeat:no-repeat;
+  animation: 
+   b .5s infinite steps(1),   
+   t calc(var(--n)*.03s) steps(var(--n)) forwards;
+}
+
+@keyframes t{
+  from {background-size:0 200%}
+}
+@keyframes b{
+  50% {background-position:0 -100%,0 0}
+}
+
+
+
+#contatti{
+  background-color: #70c3be;
+  letter-spacing: 2px;
+  }
+#contatti a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+
+  #contatti{padding-bottom: 800px;}
+  #contatti .maps iframe{
+    width: 100%;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   #contatti{padding-bottom: 800px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contatti{padding-bottom: 350px;}
+
+  #contatti .maps iframe{
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contatti{padding-bottom: 200px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
+}
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
